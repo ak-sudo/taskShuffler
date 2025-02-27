@@ -30,7 +30,7 @@ function randomize(){
     
 
         taskGiver = document.querySelector('#TaskAssigned');
-        taskGiver.innerText = `${employeeName[randomName]} has to do ${taskList[randomTask]}`;
+        taskGiver.innerText = `${employeeName[randomName]} : ${taskList[randomTask]}`;
 
     
         employeeName.splice(randomName, 1);
