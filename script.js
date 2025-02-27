@@ -1,5 +1,5 @@
-let employeeName = ['a','b','c','d','e','f','g','h','i','j'];
-let taskList = [1,2,3,4,5,6,7,8,9,10];
+let employeeName = [];
+let taskList = [];
 
 function addName(){
     getValueName = document.querySelector('#name').value;
